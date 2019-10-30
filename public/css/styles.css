@@ -1,0 +1,80 @@
+body
+{
+    background-color: maroon;
+    color: white;
+}
+header, main, nav, footer
+{
+    text-align: center;
+}
+nav a
+{
+  padding: 15px;
+   padding-bottom: 2px;
+   font-size: 1.5em;
+   text-decoration: none;
+   color: white;   
+}
+nav a:hover
+{
+    border-bottom: 2px navy solid;
+    font-size: 2em;
+    transition: .9s;
+}
+a
+{
+   font-family: 'Livvic', sans-serif; 
+}
+a:link 
+{
+    color: silver;
+}
+a:visited
+{
+    color: green;
+}
+a:hover
+{
+    color: white;
+}
+a:active
+{
+    color: yellow;
+}
+h1
+{
+    color: navy;
+    font-family: 'Pacifico', cursive; 
+    text-shadow: 2px 2px 4px black;
+}
+h1:hover
+{
+    text-shadow: 2px 2px 4px yellow;
+}
+.questions
+{
+    color: orange;
+}
+.topic
+{
+    color: orange;
+    border:3px solid navy;
+}
+img
+{
+    opacity: 0.5;
+    float: right;
+    box-shadow: 10px 10px 5px black;
+}
+img:hover {
+  opacity: 1.0;
+  border: 1.5px solid black;
+  border-radius: 15px 50px;
+ 
+}
+.main
+{
+    font-family: 'Cinzel', serif;
+    font-size: 2.5em;
+    color: navy;
+}
